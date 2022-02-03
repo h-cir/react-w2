@@ -1,31 +1,44 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'KyoboHandwriting2020A';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  background-color: #403d39;
+  color: #fffcf2;
+  font-size: 16px;
+  font-weight: bolder;
+  width: 30vw;
+  min-width: 120px;
+  max-width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  margin:  13px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+button:hover {
+  background-color: #eb5e28;
+  cursor: pointer;
+}
+
+input {
+  background-color: #403d39;
+  width: 37vw;
+  max-width: 400px;
+  min-width: 150px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +48,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
